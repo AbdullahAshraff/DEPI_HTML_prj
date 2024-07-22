@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h2>Form</h2>
+    </header>
+    <main>
+        <form method="GET">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autofocus>
+            </fieldset>
+            <br>
+            <br>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="age">age</label>
+            <input type="number" id="age" name="age">
+            <br>
+            <br>
+            <label for="bio">Insert your bio</label>
+            <textarea id="bio" name="bio"></textarea>
+            <br>
+            <br>
+            <label for="grade">choose your grade:</label>
+            <select id="grade" name="grade">
+                <option value="1">Excellent</option>
+                <option value="2">Very Good</option>
+                <option value="3">Good</option>
+                <option value="4">Acceptable</option>
+                <option value="5">Failed</option>
+            </select>
+            <br>
+            <label for="grade">choose your fav color:</label>
+            <input type="color" name="color">
+            <br>
+            <br>
+            <button type="button">Click Me!</button>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Abdullah Ashraf. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
