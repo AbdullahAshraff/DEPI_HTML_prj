@@ -1,0 +1,33 @@
+/* Reset some basic styles */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #06134c;
+    color: #d4d5e5;
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.about, .contact {
+    padding: 20px;
+}
